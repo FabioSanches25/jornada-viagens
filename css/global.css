@@ -85,13 +85,11 @@ body{
   line-height: 64px;
 
 }
-@media screen and(min-width:1024px){
+@media screen and (min-width:1014px) 
+{
   
   .button-offer:hover{
     background-color:var(--primary-color);
   }
 }
 
- .button-offer:hover{
-    background-color:var(--primary-color);
-  }
