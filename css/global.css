@@ -4,7 +4,11 @@
   font-style: normal;
   font-display: swap;
 }
-
+@media screen and(min-width:768px){
+  .section-title h2{
+    font-size: 32px;
+  }
+}
 :root {
   --primary-color: #8f0101;
   --secondary-color: #b81515;
@@ -47,5 +51,22 @@ h1 {
 
 body{
     font-family: "Moserrat", sans-serif;
+    color: var(--text-primary-color)
     
+}
+
+.section-title h2{
+
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin:0;
+  text-align: center;
+    
+ 
+}
+ .section-title hr{
+ width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  margin:16px auto 32px;
 }
