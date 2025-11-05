@@ -30,7 +30,7 @@
     font-size:32px;
 }
 }
-@media screen and (min-width: 1014px) {
+@media screen and (min-width: 1024px) {
  .hero-img {
     height: 620px;
      width: 100%;
